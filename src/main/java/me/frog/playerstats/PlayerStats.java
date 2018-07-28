@@ -3,8 +3,8 @@ package me.frog.playerstats;
 import me.frog.playerstats.command.StatsCommand;
 import me.frog.playerstats.database.DatabaseManager;
 import me.frog.playerstats.event.Events;
-
 import me.frog.playerstats.util.FileManager;
+
 import net.md_5.bungee.api.ProxyServer;
 import net.md_5.bungee.api.plugin.Plugin;
 import net.md_5.bungee.config.Configuration;
