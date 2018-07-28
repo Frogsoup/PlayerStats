@@ -1,0 +1,6 @@
+name: PlayerStats
+version: ${project.version}
+api-version: 1.13
+main: me.frog.playerstats.PlayerStats
+authors: [Frogsoup]
+description: Track basic player information.
