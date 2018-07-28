@@ -15,8 +15,7 @@ public class DatabaseManager {
     private static PlayerStats instance = PlayerStats.getInstance();
     private static Connection connection;
 
-    private static final String CREATE_TABLE = "CREATE TABLE IF NOT EXIST user_stats (user_id INT(25) NOT NULL AUTO_INCREMENT PRIMARY KEY, " +
-            "user_uuid VARCHAR(64) NOT NULL, user VARCHAR(16) NOT NULL, time_online LONG NOT NULL, joined_on DATE NOT NULL, last_seen DATE NOT NULL);";
+    private static final String CREATE_TABLE = "CREATE TABLE IF NOT EXIST user_stats (user_id INT(25) NOT NULL AUTO_INCREMENT PRIMARY KEY, user_uuid VARCHAR(64) NOT NULL, user VARCHAR(16) NOT NULL, time_online LONG NOT NULL, joined_on DATE NOT NULL, last_seen DATE NOT NULL);";
     private static final String INSERT_NEW_PLAYER = "INSERT INTO user_stats (user_uuid, user, time_online, joined_on, last_seen) values (?, ?, 0, now(), now());";
 
     /**
