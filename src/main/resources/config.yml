@@ -13,7 +13,7 @@ database: 'player_stats'
 
 ## Time Format ##
 #Choose how the time online should be displayed.
-#Avaliable Options: seconds, minutes, hours, days, weeks, or months.
+#Avaliable Options: seconds, minutes, hours, days, weeks, months, or years.
 time-format: 'days'
 
 ## Date Format ##
